@@ -1,11 +1,12 @@
-package br.cesed.si.arq.produto;
+package br.cesed.si.arq.order;
 
 import lombok.Data;
 
 @Data
-public class Account {
+public class Order {
 	
 	private int id;
-	
+
 	private String nome;
+
 }

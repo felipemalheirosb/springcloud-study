@@ -1,4 +1,4 @@
-package br.cesed.si.arq.produto;
+package br.cesed.si.arq.shipping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/produtos")
-public class AccountController {
+@RequestMapping("/shippings")
+public class ShippingController {
 	
 	@GetMapping
-	private List<Account> findAll(){
-		return new ArrayList<Account>();
+	private List<Shipping> findAll(){
+		return new ArrayList<Shipping>();
 	}
 }
